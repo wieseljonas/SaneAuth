@@ -51,7 +51,7 @@ module.exports = function(environment) {
   ENV['simple-auth-token'] = {
     serverTokenEndpoint: 'http://localhost:1337/api/v1/auth/login',
     authorizationPrefix: 'JWT ',
-    tokenPropertyName: 'access_token',
+    tokenPropertyName: 'token',
     authorizationHeaderName: 'X-Auth',
     identificationField: 'email'
   };
